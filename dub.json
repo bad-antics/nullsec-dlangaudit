@@ -1,0 +1,12 @@
+{
+    "name": "nullsec-dlangaudit",
+    "description": "Security audit engine with CTFE, contracts, and templates",
+    "authors": ["bad-antics"],
+    "license": "MIT",
+    "targetType": "executable",
+    "targetName": "dlangaudit",
+    "sourcePaths": ["."],
+    "mainSourceFile": "audit.d",
+    "dflags": ["-O", "-release"],
+    "buildRequirements": ["allowWarnings"]
+}
